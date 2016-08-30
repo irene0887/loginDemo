@@ -1,5 +1,7 @@
 package cywang;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -7,7 +9,12 @@ import schedule.job.impl.LeftJobServiceImpl;
 import schedule.job.impl.RightJobServiceImpl;
 
 public class Start {
+	
 	public static void main(String[] args){
+		
+		Logger logger = LoggerFactory.getLogger(Start.class);
+		logger.info("Can it work?");
+		
     	BeanFactory bf = new ClassPathXmlApplicationContext("spring.xml");
 /*        App at=(App)bf.getBean("app");
         at.getPerson().printPerson();*/

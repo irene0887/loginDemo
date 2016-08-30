@@ -1,0 +1,8 @@
+[0829 17:23:08 218 INFO ] [main] cywang.Start - Can it work?
+[0829 17:23:08 364 INFO ] [main] context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@53bd815b: startup date [Mon Aug 29 17:23:08 CST 2016]; root of context hierarchy
+[0829 17:23:08 406 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring.xml]
+[0829 17:23:08 605 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-database.xml]
+[0829 17:23:08 627 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-quartz.xml]
+[0829 17:23:08 958 INFO ] [main] scheduling.quartz.SchedulerFactoryBean - Spring's Quartz 1.x support is deprecated - please upgrade to Quartz 2.0+
+[0829 17:23:09 526 INFO ] [main] context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+[0829 17:23:09 526 INFO ] [main] scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now

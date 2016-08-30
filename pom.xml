@@ -28,6 +28,7 @@
     		<scope>provided</scope>
 		</dependency>
 
+		<!-- spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
@@ -81,6 +82,19 @@
 			<scope>test</scope>
 		</dependency>
 		
+		<!-- spring AOP -->
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjrt</artifactId>
+			<version>1.6.12</version>
+		</dependency>
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>1.6.12</version>
+		</dependency>
+		
+		<!-- Quartz -->
 		<dependency>  
             <groupId>org.quartz-scheduler</groupId>  
             <artifactId>quartz</artifactId>  
@@ -91,6 +105,16 @@
 			<groupId>commons-logging</groupId>
 			<artifactId>commons-logging</artifactId>
 			<version>1.1.1</version>
+		</dependency>
+		<dependency>
+ 			<groupId>log4j</groupId>
+ 			<artifactId>log4j</artifactId>
+ 			<version>1.2.17</version>
+ 		</dependency>
+ 		<dependency>  
+    		<groupId>org.slf4j</groupId>  
+    		<artifactId>slf4j-log4j12</artifactId>  
+    		<version>1.7.2</version>  
 		</dependency>
 
 		<dependency>

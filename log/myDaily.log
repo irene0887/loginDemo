@@ -1,0 +1,98 @@
+[0830 14:50:00 197 INFO ] [main] context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5aaa6d82: startup date [Tue Aug 30 14:50:00 CST 2016]; root of context hierarchy
+[0830 14:50:00 416 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring.xml]
+[0830 14:50:01 128 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-database.xml]
+[0830 14:50:01 167 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-quartz.xml]
+[0830 14:50:02 027 INFO ] [main] scheduling.quartz.SchedulerFactoryBean - Spring's Quartz 1.x support is deprecated - please upgrade to Quartz 2.0+
+[0830 14:50:03 170 INFO ] [main] context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+[0830 14:50:03 170 INFO ] [main] scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+[0830 14:52:57 813 INFO ] [main] cywang.Start - Can it work?
+[0830 14:52:57 932 INFO ] [main] context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5c8da962: startup date [Tue Aug 30 14:52:57 CST 2016]; root of context hierarchy
+[0830 14:52:57 967 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring.xml]
+[0830 14:52:58 134 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-database.xml]
+[0830 14:52:58 153 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-quartz.xml]
+[0830 14:52:58 358 INFO ] [main] scheduling.quartz.SchedulerFactoryBean - Spring's Quartz 1.x support is deprecated - please upgrade to Quartz 2.0+
+[0830 14:52:58 799 INFO ] [main] quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[0830 14:52:58 800 INFO ] [main] quartz.core.QuartzScheduler - Quartz Scheduler v.1.8.5 created.
+[0830 14:52:58 803 INFO ] [main] quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[0830 14:52:58 804 INFO ] [main] quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v1.8.5) 'scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[0830 14:52:58 804 INFO ] [main] quartz.impl.StdSchedulerFactory - Quartz scheduler 'scheduler' initialized from an externally provided properties instance.
+[0830 14:52:58 805 INFO ] [main] quartz.impl.StdSchedulerFactory - Quartz scheduler version: 1.8.5
+[0830 14:52:58 807 INFO ] [main] quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@6986852
+[0830 14:52:58 824 INFO ] [main] context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+[0830 14:52:58 824 INFO ] [main] scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+[0830 14:52:58 824 INFO ] [main] quartz.core.QuartzScheduler - Scheduler scheduler_$_NON_CLUSTERED started.
+[0830 14:53:20 382 INFO ] [main] cywang.Start - Can it work?
+[0830 14:53:20 492 INFO ] [main] context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@77556fd: startup date [Tue Aug 30 14:53:20 CST 2016]; root of context hierarchy
+[0830 14:53:20 525 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring.xml]
+[0830 14:53:20 687 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-database.xml]
+[0830 14:53:20 706 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-quartz.xml]
+[0830 14:53:20 906 INFO ] [main] scheduling.quartz.SchedulerFactoryBean - Spring's Quartz 1.x support is deprecated - please upgrade to Quartz 2.0+
+[0830 14:53:21 331 INFO ] [main] quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[0830 14:53:21 332 INFO ] [main] quartz.core.QuartzScheduler - Quartz Scheduler v.1.8.5 created.
+[0830 14:53:21 333 INFO ] [main] quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[0830 14:53:21 335 INFO ] [main] quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v1.8.5) 'scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[0830 14:53:21 335 INFO ] [main] quartz.impl.StdSchedulerFactory - Quartz scheduler 'scheduler' initialized from an externally provided properties instance.
+[0830 14:53:21 335 INFO ] [main] quartz.impl.StdSchedulerFactory - Quartz scheduler version: 1.8.5
+[0830 14:53:21 337 INFO ] [main] quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@a307a8c
+[0830 14:53:21 354 INFO ] [main] context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+[0830 14:53:21 354 INFO ] [main] scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+[0830 14:53:21 354 INFO ] [main] quartz.core.QuartzScheduler - Scheduler scheduler_$_NON_CLUSTERED started.
+[0830 15:01:00 243 INFO ] [main] cywang.Start - Can it work?
+[0830 15:01:00 359 INFO ] [main] context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@512ddf17: startup date [Tue Aug 30 15:01:00 CST 2016]; root of context hierarchy
+[0830 15:01:00 395 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring.xml]
+[0830 15:01:00 553 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-database.xml]
+[0830 15:01:00 574 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-quartz.xml]
+[0830 15:01:00 761 INFO ] [main] scheduling.quartz.SchedulerFactoryBean - Spring's Quartz 1.x support is deprecated - please upgrade to Quartz 2.0+
+[0830 15:01:01 218 INFO ] [main] quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[0830 15:01:01 219 INFO ] [main] quartz.core.QuartzScheduler - Quartz Scheduler v.1.8.5 created.
+[0830 15:01:01 220 INFO ] [main] quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[0830 15:01:01 221 INFO ] [main] quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v1.8.5) 'scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[0830 15:01:01 221 INFO ] [main] quartz.impl.StdSchedulerFactory - Quartz scheduler 'scheduler' initialized from an externally provided properties instance.
+[0830 15:01:01 221 INFO ] [main] quartz.impl.StdSchedulerFactory - Quartz scheduler version: 1.8.5
+[0830 15:01:01 223 INFO ] [main] quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@6f6745d6
+[0830 15:01:01 239 INFO ] [main] context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+[0830 15:01:01 240 INFO ] [main] scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+[0830 15:01:01 240 INFO ] [main] quartz.core.QuartzScheduler - Scheduler scheduler_$_NON_CLUSTERED started.
+[0830 15:10:49 313 INFO ] [main] context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6a6824be: startup date [Tue Aug 30 15:10:49 CST 2016]; root of context hierarchy
+[0830 15:10:49 349 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring.xml]
+[0830 15:10:49 508 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-database.xml]
+[0830 15:10:49 530 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-quartz.xml]
+[0830 15:10:49 753 INFO ] [main] scheduling.quartz.SchedulerFactoryBean - Spring's Quartz 1.x support is deprecated - please upgrade to Quartz 2.0+
+[0830 15:10:50 225 INFO ] [main] quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[0830 15:10:50 227 INFO ] [main] quartz.core.QuartzScheduler - Quartz Scheduler v.1.8.5 created.
+[0830 15:10:50 228 INFO ] [main] quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[0830 15:10:50 229 INFO ] [main] quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v1.8.5) 'scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[0830 15:10:50 230 INFO ] [main] quartz.impl.StdSchedulerFactory - Quartz scheduler 'scheduler' initialized from an externally provided properties instance.
+[0830 15:10:50 230 INFO ] [main] quartz.impl.StdSchedulerFactory - Quartz scheduler version: 1.8.5
+[0830 15:10:50 231 INFO ] [main] quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@704deff2
+[0830 15:10:50 247 INFO ] [main] context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+[0830 15:10:50 248 INFO ] [main] scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+[0830 15:10:50 248 INFO ] [main] quartz.core.QuartzScheduler - Scheduler scheduler_$_NON_CLUSTERED started.
